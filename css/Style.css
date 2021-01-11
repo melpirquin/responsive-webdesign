@@ -1,0 +1,36 @@
+div { float: left; }
+@media screen and (min-width:0px) and (max-width: 600px) {
+    body { background-color: #ff0000; }
+    #Small, #Medium, #Large{width: 100%; }
+
+
+}
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    body { background-color: green; }
+    #Small { width: 66.66%; }
+    #Medium { width: 33.33%; }
+    #Large { width: 100%; }
+
+
+
+}
+@media screen and (min-width: 901px) {
+    body { background-color: blue; }
+    #Small, #Medium, #Large { width: 33.33%;  float: left}
+
+
+
+}
+
+.Small-div {
+    background-color: #ffd580;
+
+
+}
+.Medium-div{
+    background-color: #c89a9a;
+}
+
+.Large-div {
+    background-color: #ffffff;
+}
